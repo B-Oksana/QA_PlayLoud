@@ -57,4 +57,6 @@ public class CreateAccountTests extends TestBase {
                 .assertThat().statusCode(400)
                 .assertThat().body("error", equalTo("Bad Request"));
     }
+
+
 }
